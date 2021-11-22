@@ -1,5 +1,4 @@
-run = "javac *.java && java Main"
+run="set -e; javac -cp .:./lib/* -d . *.java; java -cp .:./lib/* Main"
+entrypoint="Sketch.java"
 language = "java10"
-onBoot = "rm -rf .git && git init && rm .replit"
-
-entryPoint = "Main.java"
+onBoot="rm -rf .git && git init && sed -i '/onBoot/d' .replit"
