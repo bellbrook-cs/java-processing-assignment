@@ -10,8 +10,8 @@
 
 Please submit the following to google classroom:
 
-1. `Main.java`
-    * Hover over `Main.java`.
+1. `Sketch.java`
+    * Hover over `Sketch.java`.
     * Click the three dots to the right of the file name.
     * Click `Download`.
     * Upload the downloaded file to google classroom.
